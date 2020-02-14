@@ -1,0 +1,257 @@
+@font-face
+{
+    font-family: Kavivanar1;
+    src: url(Kavivanar-Regular.ttf);
+}
+@font-face
+{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+html,body{font-family:"Comic Sans MS";font-size:15px;font-weight:500;line-height:1.5}
+h1,h2,h3,h4,h5,h6,button{font-family:Kavivanar;font-weight:600;margin:10px 0}
+.theme-color{
+    /*background-color: dodgerblue;*/
+    background-color: #00A859;
+    color: white;
+}
+body{
+    background-color: white;
+}
+.nav_logo_large{
+    background-color: white;
+    display: block;
+    margin: 10px 0px 0;
+}
+.nav_logo_large img{
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+}
+.tagline{
+    padding: 10px;
+    text-align: center;
+}
+.tagline h1{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+}
+.w3-category{
+    position: relative;
+    background-color: white;
+}
+.w3-category img{
+    /*height: 120px;*/
+    width: 100%;
+}
+.w3-category.w3-col.s6{
+    width: 43%;
+    margin: 3.2%;
+}
+@media (min-width: 993px){
+    .w3-category.w3-col.l3 {
+        width: 22%;
+        margin: 1.5%;
+    }
+}
+.category-title{
+    font-size: 12px;
+    font-weight: 900;
+    /*height: 70px;*/
+    overflow: hidden;
+}
+.category-title p{
+    margin: 5px 0;
+}
+.w3-gold{
+    background-color: #FFCC29;
+    /*background-color: lightyellow;*/
+    /*background-color: floralwhite;*/
+    color: black;
+}
+.footer {
+    text-align: center;
+}
+.footer p{
+    margin: 5px;
+}
+.banner{
+    display: block;
+    margin: 5px auto;
+    width: 100%;
+    max-width: 500px;
+}
+.img-center{
+    display: block;
+    margin: 0 auto;
+}
+.img-single{
+    width: 100%;
+    max-width: 500px;
+}
+.w3-content{
+    padding: 5px;
+}
+.w3-button.w3-gold:hover{
+    background-color: white!important;
+}
+.emoji{
+    padding: 5px;
+    position: absolute;
+    right: 2px;
+    color: #000;
+    font-size: 1.5em;
+    display: inline-block;
+    line-height: 1;
+}
+
+.icon-home {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon-home .home-chimney {
+    width: 12%;
+    height: 18%;
+    position: absolute;
+    left: 20%;
+    top: 21%;
+    background-color: #000;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.icon-home .home-roof-container {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    margin-left: -30%;
+    top: 20%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); 
+    overflow: hidden;
+}
+
+.icon-home .home-roof-left {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    left: -84%;
+}
+
+.icon-home .home-roof-right {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    top: -84%;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); 
+}
+
+.icon-home .home-body {
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    margin-left: -30%;
+    bottom: 10%;
+    background-color: #000;
+}
+
+.icon-home .home-roof-cut-left {
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    left: -8%;
+    bottom: 55%;
+    background-color: #00A859;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); 
+}
+
+.icon-home .home-roof-cut-right {
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    right: -8%;
+    bottom: 55%;
+    background-color: #00A859;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); 
+}
+
+.icon-home .home-door {
+    width: 22%;
+    height: 38%;
+    position: absolute;
+    left: 50%;
+    margin-left: -11%;
+    bottom: 00%;
+    background-color: #00A859;
+    border-radius: 15%;
+}
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.w3-footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.imagebanner{
+    width: 100%;
+    max-width: 400px
+}
+.strikethrough {
+  position: relative;
+}
+.strikethrough:before {
+  color: black;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 2px solid;
+  border-color: inherit;
+
+  -webkit-transform:rotate(-25deg);
+  -moz-transform:rotate(-25deg);
+  -ms-transform:rotate(-25deg);
+  -o-transform:rotate(-25deg);
+  transform:rotate(-25deg);
+}
